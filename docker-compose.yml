@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  api:
+    image: php-apache-mysql
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8137:80"

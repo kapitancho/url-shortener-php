@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS shortened_urls (
+	id TEXT NOT NULL PRIMARY KEY,
+	url TEXT NOT NULL,
+	short_url TEXT NOT NULL
+)
